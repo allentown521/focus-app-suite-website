@@ -213,6 +213,14 @@ export function FocusApps() {
           </div>
           <div className="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
             <p>&copy; {new Date().getFullYear()} Focus. All rights reserved.</p>
+            <a
+              href="https://beian.miit.gov.cn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="invisible"
+            >
+              鄂ICP备2022011661号-1
+            </a>
           </div>
         </div>
       </footer>
