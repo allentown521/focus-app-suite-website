@@ -158,7 +158,7 @@ export function FocusApps() {
         <section id="about" className="py-20 bg-gradient-to-r from-purple-50 to-blue-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">About Focus</h2>
-            <p className="text-xl text-gray-600 mb-8">At Focus, we're passionate about creating beautiful, functional apps that enhance your digital life. Our team of dedicated developers and designers work tirelessly to bring you the best possible user experience across all our applications.</p>
+            <p className="text-xl text-gray-600 mb-8">At Focus, we&apos;re passionate about creating beautiful, functional apps that enhance your digital life. Our team of dedicated developers and designers work tirelessly to bring you the best possible user experience across all our applications.</p>
             <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-300">
               Learn More About Us
               <ArrowRight className="ml-2 -mr-1 h-5 w-5" aria-hidden="true" />
@@ -169,7 +169,7 @@ export function FocusApps() {
         <section id="contact" className="py-20 bg-gradient-to-r from-blue-50 to-purple-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
-            <p className="text-xl text-gray-600 mb-8">Have questions or feedback? We'd love to hear from you! Reach out to our team and let us know how we can help improve your experience with our apps.</p>
+            <p className="text-xl text-gray-600 mb-8">Have questions or feedback? We&apos;d love to hear from you! Reach out to our team and let us know how we can help improve your experience with our apps.</p>
             <a href="mailto:products.focus@gmail.com" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300">
               Contact Us
               <ArrowRight className="ml-2 -mr-1 h-5 w-5" aria-hidden="true" />
