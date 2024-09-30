@@ -135,7 +135,7 @@ export function FocusApps() {
               title="AIChatOne"
               description="ALL-In-One AI ChatGPT Copilot & Youtube Web Summary & Twitter writer & chathub & chatbot"
               image="/images/aichatone.png"
-              directDownloadLink="https://aichatone.com"
+              directDownloadLink="https://aichatone.com?utm_source=focus-apps"
             />
             
             <AppSection
