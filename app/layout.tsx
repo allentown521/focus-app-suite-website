@@ -32,17 +32,9 @@ export default function RootLayout({
       >
         {children}
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-8P2HNG6JG9`}
+          src="https://umami.aichatone.com/script.js" data-website-id="26991839-922a-4004-9259-0181f45d417f"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-8P2HNG6JG9');
-          `}
-        </Script>
       </body>
     </html>
   );

@@ -4,17 +4,6 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { ArrowRight, Menu, X, Download, Smartphone, Star } from 'lucide-react'
 
-// 添加 Google Analytics 跟踪代码
-const GA_TRACKING_ID = 'G-8P2HNG6JG9' // 替换为您的 Google Analytics 跟踪 ID
-
-// 添加 pageview 函数
-const pageview = (url: string) => {
-  if (typeof window !== 'undefined' && (window as any).gtag) {
-    (window as any).gtag('config', GA_TRACKING_ID, {
-      page_path: url,
-    })
-  }
-}
 
 export function FocusApps() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -35,8 +24,6 @@ export function FocusApps() {
 
     window.addEventListener('scroll', handleScroll)
 
-    // 添加 Google Analytics 页面浏览跟踪
-    pageview(window.location.pathname)
 
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
