@@ -120,9 +120,16 @@ export function FocusApps() {
             
             <AppSection
               title="AIChatOne"
-              description="ALL-In-One AI ChatGPT Copilot & Youtube Web Summary & Twitter writer & chathub & chatbot"
+              description="AIChatOne is an all-in-one AI assistant with the most advanced AI models (GPT-4, Claude 3, Gemini, etc.) to help you Chat, Search, Write, Read and more"
               image="/images/aichatone.png"
               directDownloadLink="https://aichatone.com?utm_source=focus-apps"
+            />
+
+            <AppSection
+              title="Saladict"
+              description="Saladict is a powerful and easy-to-use dictionary and translator chrome extension. It supports multiple dictionaries and translation services, making it easy to learn languages."
+              image="/images/saladict.png"
+              directDownloadLink="https://saladict.aichatone.com?utm_source=focus-apps"
             />
             
             <AppSection
@@ -227,7 +234,7 @@ function StatisticsSection() {
           </div>
           <div className="space-y-2">
             <Smartphone className="mx-auto h-12 w-12 text-blue-600" />
-            <div className="text-4xl font-bold text-gray-800">7</div>
+            <div className="text-4xl font-bold text-gray-800">8</div>
             <div className="text-xl text-gray-600">Apps</div>
           </div>
           <div className="space-y-2">
