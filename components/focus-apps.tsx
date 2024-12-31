@@ -211,7 +211,7 @@ export function FocusApps() {
               href="https://beian.miit.gov.cn/"
               target="_blank"
               rel="noopener noreferrer"
-              className="visible"
+              className="invisible"
             >
               鄂ICP备2022011661号-1
             </a>
