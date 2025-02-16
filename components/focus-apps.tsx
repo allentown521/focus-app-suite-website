@@ -206,7 +206,7 @@ export function FocusApps() {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Focus. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Focus Apps LLC. All rights reserved.</p>
             <a
               href="https://beian.miit.gov.cn/"
               target="_blank"
