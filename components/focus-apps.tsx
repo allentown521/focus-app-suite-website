@@ -164,7 +164,7 @@ export function FocusApps() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
             <p className="text-xl text-gray-600 mb-8">Have questions or feedback? We&apos;d love to hear from you! Reach out to our team and let us know how we can help improve your experience with our apps.</p>
-            <a href="mailto:products.focus@gmail.com" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300">
+            <a href="mailto:product@focusapps.app" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300">
               Contact Us
               <ArrowRight className="ml-2 -mr-1 h-5 w-5" aria-hidden="true" />
             </a>
@@ -184,7 +184,7 @@ export function FocusApps() {
               <ul className="space-y-2">
                 <li><a href="#" target='blank' className="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
                 <li><a href="#" target='blank' className="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                <li><a href="mailto:products.focus@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-300">Contact Us</a></li>
+                <li><a href="mailto:product@focusapps.app" className="text-gray-400 hover:text-white transition-colors duration-300">Contact Us</a></li>
               </ul>
             </div>
             <div>
