@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://focus.hk.cn
+Host: https://focusapps.app
 
 # Sitemaps
-Sitemap: https://focus.hk.cn/sitemap.xml
+Sitemap: https://focusapps.app/sitemap.xml
