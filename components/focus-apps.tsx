@@ -420,8 +420,8 @@ export function FocusApps() {
           </div>
           <div className="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
             <p>
-              &copy; {new Date().getFullYear()} Focus Apps LLC. All rights
-              reserved.
+              &copy; {new Date().getFullYear()} 武汉市洪山区子钦科技工作室. All
+              rights reserved.
             </p>
             <a
               href="https://beian.miit.gov.cn/"
